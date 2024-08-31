@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css link -->
+    <link rel="stylesheet" href="/css/Kumo.css" />
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>All Products - Kumo</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="/images/logo.png" alt="" width="150px"
+          /></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Product.html">Products</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contactus.html">Contact</a></li>
+            <li><a href="Account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="Cart.html"
+          ><img src="/images/cart1.png" alt="" width="25px" height="25px"
+        /></a>
+        <img
+          src="/images/burger.png"
+          alt=""
+          class="menu-icon"
+          onclick="menutoggle()"
+        />
+      </div>
+    </div>
+    <!-- ? single product details -->
+    <div class="small-container single-product">
+      <div class="row">
+        <div class="col-2">
+          <img
+            src="/images/front-puma-shirt-pic.jpg"
+            width="100%"
+            id="ProductImg"
+          />
+          <div class="small-img-row">
+            <div class="small-img-col">
+              <img
+                src="/images/front-puma-shirt-pic.jpg"
+                width="100%"
+                class="small-img"
+              />
+            </div>
+            <div class="small-img-col">
+              <img
+                src="/images/back-puma-shirt.jpg"
+                width="100%"
+                class="small-img"
+              />
+            </div>
+            <div class="small-img-col">
+              <img
+                src="/images/full-puma-shirt-trouser.jpg"
+                width="100%"
+                class="small-img"
+              />
+            </div>
+            <div class="small-img-col">
+              <img
+                src="/images/left-side-pic-puma.jpg"
+                width="100%"
+                class="small-img"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <p>Home / T-Shirt</p>
+          <h1>Red Printed T-Shirt by HRX</h1>
+          <h4>$50.00</h4>
+          <select>
+            <option>Select Size</option>
+            <option>XXL</option>
+            <option>XL</option>
+            <option>Large</option>
+            <option>Medium</option>
+            <option>Small</option>
+          </select>
+          <input type="number" value="1" />
+          <a href="" class="btn">Add To Cart</a>
+          <h3>Product Details <i class="fa fa-indent"></i></h3>
+          <br />
+          <p>
+            Give your summer wardrobe a style upgrade with the HRX Men's Active
+            T-shirt. Team it with a pair of shorts for your morning workout or a
+            denims for an evening out with the guys.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- ? title -->
+    <div class="small-container">
+      <div class="row row-2">
+        <h2>Related Products</h2>
+        <p>View More</p>
+      </div>
+    </div>
+    <!-- !products -->
+    <div class="small-container">
+      <div class="row">
+        <div class="col-4">
+          <img src="/images/gray-watch.jpg" alt="" />
+          <h4>Formal Watch</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="/images/irene-unsplash.jpg" alt="" />
+          <h4>Irene Shoe</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$35.00</p>
+        </div>
+        <div class="col-4">
+          <img src="/images/silver-digger.jpg" alt="" />
+          <h4>Gray digger</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>$70.00</p>
+        </div>
+        <div class="col-4">
+          <img src="/images/nike-black-trouser.jpg" alt="" />
+          <h4>Nike Black Trouser</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p>$55.00</p>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and Ios mobile phone</p>
+            <div class="app-logo">
+              <img src="/images/Apple app store.jpg" alt="" />
+              <img src="/images/google-play.jpg" alt="" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="/images/necha-kumo.png" alt="" />
+            <p>
+              Our Purpose Is To Sustainably Make the Pleasure and Benefits of
+              Sports Accessible to the Many
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blogs Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2023 - Design by Aqib Channar</p>
+      </div>
+    </div>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
